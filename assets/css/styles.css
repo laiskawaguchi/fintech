@@ -32,31 +32,31 @@ html, body {
 }
 
 .bg-custom {
-    background-color: #404040; /* Ou outra cor desejada */
-    border-radius: 10px; /* Raio de arredondamento das bordas */
-    padding: 15px; /* Espaçamento interno */
-    max-width: 800px; /* Largura máxima do contêiner */
-    margin: auto; /* Centralizar o contêiner horizontalmente */
+    background-color: #404040; 
+    border-radius: 10px;
+    padding: 15px; 
+    max-width: 800px; 
+    margin: auto; 
     display: flex;
     justify-content: space-between;
 }
 
 .left-container,
 .right-container {
-    flex: 1; /* Para dividir o espaço igualmente entre a imagem e o formulário */
+    flex: 1;
 }
 
 .image {
-    width: 200%; /* Ajuste para aumentar a largura da imagem */
-    max-width: 200px; /* Defina um tamanho máximo se necessário */
-    border-radius: 10px; /* Ajuste conforme necessário */
-    margin-left: 100px; /* Ajuste para mover a imagem mais para a direita */
+    width: 200%; 
+    max-width: 200px; 
+    border-radius: 10px; 
+    margin-left: 100px; 
 }
 
 .form-container {
     z-index: 1;
     position: relative;
-    margin-left: 20px; /* Ajuste conforme necessário para o espaçamento entre a imagem e o formulário */
+    margin-left: 20px; 
 }
 
 
